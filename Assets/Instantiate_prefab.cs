@@ -19,7 +19,7 @@ public class Instantiate_prefab : MonoBehaviour {
         // Supprimer les anciens objets
         if (Input.GetKeyDown(KeyCode.D)) {
             foreach (Transform child in parent) Destroy(child.gameObject);
-            numberOfObjects = 0;
+            numberOfObjects = 1;
         }
         
         // Ajouter un objet
